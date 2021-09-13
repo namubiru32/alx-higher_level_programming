@@ -12,3 +12,4 @@ task 9: a function that finds the biggest integer of a list.
 task 10: a function that finds all multiples of 2 in a list.
 task 11: a function that deletes the item at a specific position in a list.
 task 12: switch value of a and b.
+task 13: a function in C that checks if a singly linked list is a palindrome.
