@@ -7,3 +7,4 @@ hout modifying the original list
 task 5: a function that removes all characters c and C from a string.
 task 6: a function that prints a matrix of integers.
 task 7: a function that adds 2 tuples.
+task 8:  a function that returns a tuple with the length of a string and its first character.
