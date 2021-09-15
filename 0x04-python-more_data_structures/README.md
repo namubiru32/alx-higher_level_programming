@@ -14,3 +14,4 @@ Task 12: converts a Roman numeral to an integer.
 Task 13: a function that returns the weighted average of all integers tuple
 Task 14: a function that computes the square value of all integers of a matrix using map
 Task 15: a function that deletes keys with a specific value in a dictionary.
+Task 16: C functions that print some basic info about Python lists and Python bytes objects.
