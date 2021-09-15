@@ -12,3 +12,4 @@ Task 10: a function that returns a key with the biggest integer value.
 Task 11: a function that returns a list with all values multiplied by a number without using any loops.
 Task 12: converts a Roman numeral to an integer.
 Task 13: a function that returns the weighted average of all integers tuple
+Task 14: a function that computes the square value of all integers of a matrix using map
