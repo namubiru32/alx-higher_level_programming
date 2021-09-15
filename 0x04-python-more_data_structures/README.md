@@ -4,3 +4,4 @@ Task 2: a function that adds all unique integers in a list (only once for each i
 Task 3: a function that returns a set of common elements in two sets.
 Task 4: a function that returns a set of all elements present in only one set.
 Task 5: a function that returns the number of keys in a dictionary.
+Task 6: a function that prints a dictionary by ordered keys.
