@@ -3,3 +3,4 @@ Task 1: a function that replaces all occurrences of an element by another in a n
 Task 2: a function that adds all unique integers in a list (only once for each integer).
 Task 3: a function that returns a set of common elements in two sets.
 Task 4: a function that returns a set of all elements present in only one set.
+Task 5: a function that returns the number of keys in a dictionary.
