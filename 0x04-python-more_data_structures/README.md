@@ -9,3 +9,4 @@ Task 7: a function that replaces or adds key/value in a dictionary.
 Task 8: a function that deletes a key in a dictionary.
 Task 9: a function that returns a new dictionary with all values multiplied by 2
 Task 10: a function that returns a key with the biggest integer value.
+Task 11: a function that returns a list with all values multiplied by a number without using any loops.
