@@ -7,3 +7,4 @@ Task 5: a function that returns the number of keys in a dictionary.
 Task 6: a function that prints a dictionary by ordered keys.
 Task 7: a function that replaces or adds key/value in a dictionary.
 Task 8: a function that deletes a key in a dictionary.
+Task 9: a function that returns a new dictionary with all values multiplied by 2
