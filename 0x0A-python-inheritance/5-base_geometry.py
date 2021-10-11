@@ -1,13 +1,9 @@
 #!/usr/bin/python3
-'''task 6 module'''
+"""Module 5-base_geometry.
+Creates an empty class."""
 
 
 class BaseGeometry:
-    '''empty class'''
-    def __init__(self):
-        '''empty init'''
-        pass
+    """Empty class."""
 
-    def area(self):
-        '''stupid function'''
-        raise Exception('area() is not implemented')
+    pass
