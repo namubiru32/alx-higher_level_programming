@@ -1,53 +1,37 @@
 #!/usr/bin/python3
-"""
-Module 12-student
-Contains class Student
-that initializes public instance attributes first_name, last_name, and age,
-and has public method to_json that returns dictionary representation
-of requested attributes or all if none were requested
-"""
+'''task 10 module'''
 
 
-class Student():
-    """
-    Public Attributes:
-        first_name
-        last_name
-        age
-    Public Methods:
-        to_json: retrieves its dictionary representation
-    """
+class Student:
+    '''student class'''
     def __init__(self, first_name, last_name, age):
-        """
-        Initializes student with full name and age
-        """
+        '''Initialization of the student object'''
         self.first_name = first_name
         self.last_name = last_name
         self.age = age
 
     def to_json(self, attrs=None):
-        """
-        Returns dictionary description with simple data structure
-        (list, dictionary, dictionary, string)
-        for JSON serialization of an object
-        Return:
-            Only return dict of attrs given to us
-            Return entire dict if no attrs given
-        """
-        if attrs is None:
+        '''return a dictionary representation of a Student instance
+        If attrs is a list of strings, only attribute names contained
+        in this list must be retrieved.
+        Otherwise, all attributes must be retrieved
+        '''
+        try:
+            for attr in attrs:
+                if type(attr) is not str:
+                    return self.__dict__
+        except Exception:
             return self.__dict__
-        else:
-            dic = {}
-            for att in attrs:
-                if att in self.__dict__.keys():
-                    dic[att] = self.__dict__[att]
-            return dic
+        my_dict = dict()
+        for key, value in self.__dict__.items():
+            if key in attrs:
+                my_dict[key] = value
+        return my_dict
 
     def reload_from_json(self, json):
-        """
-        Return:
-            Transfer all attributes of json to self
-        """
-        for k, v in json.items():
-            setattr(self, k, v)
-
+        '''this function replaces all attributes of the Student instance
+        with the ones in the json argument
+        '''
+        for key, value in json.items():
+            if key in self.__dict__:
+                self.__dict__[key] = value
