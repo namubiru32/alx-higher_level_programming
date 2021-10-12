@@ -1,29 +1,33 @@
 #!/usr/bin/python3
-"""Module 11-student.
-Creates a Student class.
+"""
+Module 11-student
+Contains class Student
+that initializes public instance attributes first_name, last_name, and age,
+and has public method to_json that retrieves its dictionary representation
 """
 
 
-class Student:
-    """Class that defines a student.
-    Public attributes:
-        - first_name
-        - last_name
-        - age
-    Public method to_json().
+class Student():
     """
-
+    Public Attributes:
+        first_name
+        last_name
+        age
+    Public Methods:
+        to_json: retrieves its dictionary representation
+    """
     def __init__(self, first_name, last_name, age):
-        """Initializes the Student instance."""
-
+        """
+        Initializes student with full name and age
+        """
         self.first_name = first_name
         self.last_name = last_name
         self.age = age
 
     def to_json(self):
-        """Retrieves a dictionary representation
-        of a Student instance.
-        Returns: the dict representation of the instance.
         """
-
+        Returns dictionary description with simple data structure
+        (list, dictionary, dictionary, string)
+        for JSON serialization of an object
+        """
         return self.__dict__
