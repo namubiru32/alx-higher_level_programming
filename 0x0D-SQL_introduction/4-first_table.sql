@@ -1,4 +1,3 @@
--- creates a table called first_table in the current database in your MySQL server
--- creates a table even if the table already exists
-CREATE TABLE IF NOT EXISTS first_table (id INT, name VARCHAR(256));
-
+-- create a table in mysql database
+-- create a table in mysql database
+CREATE TABLE first_table(id INT, name VARCHAR(256));

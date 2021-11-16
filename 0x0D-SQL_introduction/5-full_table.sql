@@ -1,4 +1,4 @@
--- create a table in mysql database
--- create a table in mysql database
-CREATE TABLE first_table(id INT, name VARCHAR(256));
+-- print full description of table structure of first_table from hbtn_0c_0 on mysql server
+-- full description of table structure
+SHOW CREATE TABLE first_table;
 

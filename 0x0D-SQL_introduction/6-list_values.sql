@@ -1,3 +1,3 @@
--- print full description of table structure of first_table from hbtn_0c_0 on mysql server
--- full description of table structure
-SHOW CREATE TABLE first_table;
+-- print all information in a first_table in mysql database
+-- display all rows of data in first_table
+SELECT * FROM first_table;
